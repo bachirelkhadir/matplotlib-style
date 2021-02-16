@@ -3,9 +3,8 @@
 import matplotlib.pyplot as plt
 import numpy as np
 import matplotlib
-
+plt.style.use('./doomeone.mplstyle')
 print(plt.style.available)
-plt.style.use('doomeone')
 print(matplotlib.matplotlib_fname())
 plt.plot(np.random.rand(10), np.random.rand(10), label="legend")
 plt.plot(np.random.rand(10), np.random.rand(10), label="legend")
