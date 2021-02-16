@@ -3,7 +3,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
 import matplotlib
-plt.style.use('seaborn')
+plt.style.use('seaborn-deep')
 print(matplotlib.matplotlib_fname())
 print(plt.style.available)
 plt.plot(np.random.rand(10), np.random.rand(10), label="legend")
