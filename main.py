@@ -7,6 +7,8 @@ import matplotlib
 print(matplotlib.matplotlib_fname())
 print(plt.style.available)
 plt.plot(np.random.rand(10), np.random.rand(10), label="legend")
+plt.plot(np.random.rand(10), np.random.rand(10), label="legend")
+plt.plot(np.random.rand(10), np.random.rand(10), label="legend")
 plt.xlabel("meter per seconds")
 plt.ylabel("meter per yy")
 plt.title("Title per yy")
